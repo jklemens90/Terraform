@@ -18,8 +18,9 @@ The RDS instance running SQL server has been created, including the DB subnet gr
 ![2023-10-06 16_18_53-Window db subnet](https://github.com/jklemens90/Terraform/assets/95970840/27c1f1aa-e638-48b4-ac08-c587bec0fe75)
 
 
-
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
+
+
 
 ![2023-10-06 16_18_20-Window topology](https://github.com/jklemens90/Terraform/assets/95970840/00997971-65d2-4b2b-bd7c-da86f6b3c3b0)
 
