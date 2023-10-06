@@ -6,6 +6,7 @@ balancers and a failover for the SQL Server instances.
 Features-
 
 -Active Directory will be implemented so myself or users can authenticate via RDP.
+
 -A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler.
 
 *What has been done so far*
