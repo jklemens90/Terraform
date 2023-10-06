@@ -10,7 +10,7 @@ Features-
 
 *What has been done so far*
 
-2 Web and 2 App servers have been created. 
+2 Web and 2 App servers have been created. The Web servers were placed in the public subnet in different AZs. The App servers were placed in private subnet in different AZs.
 ![2023-10-06 16_16_51-Window](https://github.com/jklemens90/Terraform/assets/95970840/c7122a7b-1fe1-492c-a31a-4dfe4fdc7861)
 
 The RDS instance running SQL server has been created, including the DB subnet groups.
@@ -20,6 +20,7 @@ The RDS instance running SQL server has been created, including the DB subnet gr
 
 
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
+
 ![2023-10-06 16_18_20-Window topology](https://github.com/jklemens90/Terraform/assets/95970840/00997971-65d2-4b2b-bd7c-da86f6b3c3b0)
 
 
