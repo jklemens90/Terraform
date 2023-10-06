@@ -5,9 +5,11 @@ balancers and a failover for the SQL Server instances.
 
 Features-
 
--Active Directory will be implemented so myself or users can authenticate via RDP.
+-Active Directory will be implemented so myself or users can authenticate via RDP. (in progress)
 
--A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler.
+
+-A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. (in progress)
+
 
 *What has been done so far*
 
