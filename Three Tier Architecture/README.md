@@ -14,8 +14,7 @@ Features-
 
 2 Web, 2 App servers, and 2 DB have been created. The Web servers were placed in the public subnet in different AZs. The App servers were placed in private subnet in different AZs. DB servers have been placed in the private subnet in different AZs. 
 
-AMIs: Windows 2019 for the Web and App Servers
-      Windows 2019/SQL Server 2019 for the DB Servers
+AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for the DB Servers
 
 ![EC2 instances](https://github.com/jklemens90/Terraform/assets/95970840/28cd2568-543c-4e58-a59c-de640a45d359)
 
