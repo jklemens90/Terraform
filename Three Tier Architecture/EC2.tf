@@ -66,7 +66,7 @@ resource "aws_instance" "app_server1" {
 
 
 resource "aws_instance" "app_server2" {
-  instance_type          = "r5a.large"
+  instance_type          = "t2.micro"
   ami                    = data.aws_ami.windows.id
   key_name               = aws_key_pair.threetier_auth.id
   vpc_security_group_ids = [aws_security_group.app_sg.id]
