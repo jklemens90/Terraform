@@ -1,5 +1,5 @@
 #create 2 EC2 instances using SQL Server 2019 AMI. Place them in different AZ within a private subnet. Have the
-#ability to failover.
+#ability to failover to the secondary node.
 
 #attach EBS volumes for C drive, F drive, G drive, L drive for both instances. Drive sizes should match on both DB 
 #instances 
