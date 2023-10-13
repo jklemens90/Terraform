@@ -2,12 +2,26 @@
 
 The purpose of the project is to create a three tier architecture in AWS for a Microsoft Windows Environment. Architecture should be highly available and redundant. This will be accomplished with use of load balancers and a failover for the SQL Server instances. 
 
-Features-
-
-Active Directory will be implemented so I can authenticate via RDP. (in progress)
+Features yet to be implemented-
 
 
-A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. (in progress)
+Map multiple EBS volumes to the EC2 instances. 
+
+
+A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. 
+
+
+Internal load balancer for application servers.
+
+
+
+Active Directory will be implemented so I can authenticate via RDP. 
+
+
+An S3 log bucket to store logs. Including a bucket policy to move less commonly accessed files to IA or Glacier after "X" amount of days. 
+
+
+
 
 
 *What has been done so far*
