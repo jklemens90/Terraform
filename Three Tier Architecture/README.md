@@ -19,10 +19,18 @@ AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for
 
 
 
+Elastic Load Balancer for the Public facing web servers.
+
+![load balancer](https://github.com/jklemens90/Terraform/assets/95970840/7f65ac19-497d-4977-9e92-6d8c0e29e5a6)
+
+
+
+
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
 
 ![2023-10-06 16_18_20-Window topology](https://github.com/jklemens90/Terraform/assets/95970840/00997971-65d2-4b2b-bd7c-da86f6b3c3b0)
+
 
 
 
