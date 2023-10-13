@@ -14,6 +14,8 @@ A Lambda function (written in Python) that will automate snapshots of EBS volume
 Internal load balancer for application servers.
 
 
+Apply SSL cert to ELB to facilitate HTTPS connections. 
+
 
 Active Directory will be implemented so I can authenticate via RDP. 
 
