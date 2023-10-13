@@ -5,6 +5,8 @@ The purpose of the project is to create a three tier architecture in AWS for a M
 Features-
 
 -Active Directory will be implemented so I can authenticate via RDP. (in progress)
+
+
 -A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. (in progress)
 
 
