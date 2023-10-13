@@ -1,6 +1,6 @@
 *In Progress*
 
-The purpose of the project is to create a three tier architecture in AWS for a Microsoft Windows Environment. Architecture should be highly available and redundant. This will be accomplished with use of load balancers and a failover for the SQL Server instances. 
+The purpose of the project is to create a highly available three-tier architecture in AWS for a Microsoft Windows Environment. This will be accomplished by implementing a Multi-AZ architecture, use of load balancers, and a failover for the SQL Server instances. 
 
 Features yet to be implemented-
 
