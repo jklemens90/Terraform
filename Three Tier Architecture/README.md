@@ -38,7 +38,7 @@ AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for
 
 Used block device mapping to specify additional EBS volumes to attach to the instances when they're launched. Added D drive for application servers. Added F, L, and G drives for database servers to facilitate SQL server. Encrypted all EBS volumes. 
  
-
+-------------------------------------------------------------------------------------------
 
 
 
@@ -47,10 +47,10 @@ Elastic Load Balancer for the Public facing web servers.
 ![load balancer](https://github.com/jklemens90/Terraform/assets/95970840/7f65ac19-497d-4977-9e92-6d8c0e29e5a6)
 
 
-
+----------------------------------------
 Internal network load balancer for application servers.
 
-
+-----------------------------------------
 
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
