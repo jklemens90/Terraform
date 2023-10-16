@@ -1,1 +1,0 @@
-#IAM for Active Directory
