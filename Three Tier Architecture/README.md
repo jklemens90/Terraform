@@ -67,6 +67,7 @@ Created IAM role and Instance profile to be attached to EC2 instances so they ca
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
 
+![image](https://github.com/jklemens90/Terraform/assets/95970840/b3162c21-7815-4951-823b-fab6b570562a)
 
 
 
