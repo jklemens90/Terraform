@@ -1,1 +1,0 @@
-#Use event bridge scheduler to trigger the EBS Snapshot lambda function
