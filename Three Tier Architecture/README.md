@@ -44,13 +44,13 @@ Used block device mapping to specify additional EBS volumes to attach to the ins
  
 
 
-
+------------------
 
 Elastic Load Balancer for the Public facing web servers. 
 
 ![load balancer](https://github.com/jklemens90/Terraform/assets/95970840/7f65ac19-497d-4977-9e92-6d8c0e29e5a6)
 
-
+--------------------
 
 Internal network load balancer for application servers.
 
@@ -71,7 +71,7 @@ AppStream to securely connect to EC2 instances in the private subnet.
 
 
 
-
+----------------------------------------------
 
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
