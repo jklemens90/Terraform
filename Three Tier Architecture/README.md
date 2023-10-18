@@ -67,8 +67,6 @@ Created IAM role and Instance profile to be attached to EC2 instances so they ca
 
 AppStream to securely connect to EC2 instances in the private subnet. 
 
-![Alt text](image.png)
-![Alt text](image-1.png)
 
 
 
