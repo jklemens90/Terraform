@@ -40,7 +40,7 @@ Add a S3 log bucket with private access for centralized logging. Including a buc
 
 *What has been done so far*
 
-2 Web, 2 App servers, and 2 DB have been created. The Web servers were placed in the public subnet in different AZs. The App servers were placed in private subnet in different AZs. DB servers have been placed in the private subnet in different AZs. 
+2 Web, 2 App servers, 2 DB, and 2 Domain management servers have been created. The Web servers were placed in the public subnet in different AZs. The App servers were placed in private subnet in different AZs. DB servers have been placed in the private subnet in different AZs. Domain management servers were each placed in the private subnet in different AZs.
 
 AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for the DB Servers
 
@@ -69,7 +69,7 @@ Created AWS Microsoft AD resource and referenced AD credentials that are stored 
 Created IAM role, Instance profile, and SSM document so EC2 instances can be added to Active Directory upon launch. Confirmed in ethernet settings that EC2 instances were joined to the domain.
 -----------------
 
-Successfully created AppStream fleet with a custom image with RDP application which allows me to securely connect to EC2 instances
+Successfully built AppStream fleet with a custom image with RDP application which allows me to securely connect to EC2 instances through a bastion server. 
 
 
 -------------------
