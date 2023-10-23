@@ -66,14 +66,10 @@ Internal network load balancer for application servers.
 Created AWS Microsoft AD resource and referenced AD credentials that are stored in AWS Secrets Manager.
 
 
-Created IAM role and Instance profile to be attached to EC2 instances so they can be added to Active Directory upon launch. Confirmed in ethernet settings that EC2 instances were joined to the johnklemens.local domain. 
-
-
+Created IAM role, Instance profile, and SSM document so EC2 instances can be added to Active Directory upon launch. Confirmed in ethernet settings that EC2 instances were joined to the domain.
 -----------------
 
-Successfully created AppStream fleet and custom image with RDP application which allows me to securely connect to EC2 instances in the private subnet. 
-
-
+Successfully created AppStream fleet with a custom image with RDP application which allows me to securely connect to EC2 instances
 
 
 -------------------
