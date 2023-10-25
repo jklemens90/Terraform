@@ -94,9 +94,9 @@ Use of variables to avoid hardcoding credentials and other sensitive values.
 
 Use gitignore for .tfvars and state files.
 
-*In progress* Storing credentials in AWS Secrets Manager and then referencing the secret
+*In progress* -Storing credentials in AWS Secrets Manager and then referencing the secret
 
-*In progress* Encrypting the Terraform State
+*In progress* -Encrypting the Terraform State
 
 
 
