@@ -90,7 +90,8 @@ The network topology has been created: VPC, public subnets in multi AZ, private 
 Security regarding terraform files-
 
 Use of variables to avoid hardcoding credentials and other sensitive values.
--Implemented flagging for secret variables that contain sensitive values
+
+a.Implemented flagging for secret variables that contain sensitive values
 
 Use gitignore for .tfvars and state files.
 
