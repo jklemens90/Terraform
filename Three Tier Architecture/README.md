@@ -22,13 +22,11 @@ Apply SSL cert to ELB to facilitate HTTPS connections over the internet.
 Add secret rotation for AD credentials stored in AWS Secrets Manager.
 
 
-
 Finish creating shared services VPC for domain controllers. Create VPN connection between the two VPCs.
 
 
-Powershell user data script to install RSAT tools on domain controllers
+Powershell user data script to install Administrative tools on domain controllers
 
-Powershell user data script to install Apache on Web servers. 
 
 Powershell user data script to initialize volumes on disk drives in OS. 
 
@@ -86,6 +84,12 @@ The network topology has been created: VPC, public subnets in multi AZ, private 
 
 ![image](https://github.com/jklemens90/Terraform/assets/95970840/b3162c21-7815-4951-823b-fab6b570562a)
 
+----------------------------------------------
+User data scripts-
+
+Web Servers- Attached  user data script to install IIS and create a website
+
+![IIS](https://github.com/jklemens90/Terraform/assets/95970840/34287bd4-83fe-4988-ad2a-5ede58b1784c)
 
 -----------------------------------------------
 
