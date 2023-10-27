@@ -68,6 +68,7 @@ Created AWS Microsoft AD resource and referenced AD credentials that are stored 
 
 
 Created IAM role and Instance profile to be attached to EC2 instances so they can be added to Active Directory upon launch. Confirmed in ethernet settings that EC2 instances were joined to the johnklemens.local domain. 
+![2023-10-27 12_56_54-Window](https://github.com/jklemens90/Terraform/assets/95970840/757bd496-4068-4e9e-903a-bbb9b35eea85)
 
 
 -----------------
