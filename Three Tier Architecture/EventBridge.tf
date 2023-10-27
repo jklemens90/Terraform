@@ -14,7 +14,7 @@ resource "aws_scheduler_schedule" "EC2SnapshotScheduler" {
     mode = "OFF"
   }
   
-  schedule_expression = "cron(50 10 * * ? *)"
+  schedule_expression = "cron(00 23 * * ? *)"
   schedule_expression_timezone = "America/New_York"
 
   target {
