@@ -1,0 +1,7 @@
+Resources:
+  SnapshotScheduler:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: SnapshotSchedulerFunction.lambda_handler
+      Runtime: python3.9
+      CodeUri: .
