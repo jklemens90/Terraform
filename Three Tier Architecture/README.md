@@ -4,7 +4,7 @@ The purpose of the project is to create a highly available three-tier architectu
 
 Other notable implementations include Active Directory and Appstream.
 
-A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. 
+A Lambda function (written in Python) that automates snapshots of EBS volumes for servers on a nightly basis. This lambda function is triggered by an EventBridge scheduler. 
 
 -------------------------------------------------------------------------------------
 
@@ -48,6 +48,10 @@ AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for
 Used block device mapping to specify additional EBS volumes to attach to the instances when they're launched. Added D drive for application servers. Added F, L, and G drives for database servers to facilitate SQL server. Encrypted all EBS volumes. 
  
 -----------------------------------------------
+
+A Lambda function (written in Python) that automates snapshots of EBS volumes for servers on a nightly basis. This lambda function is triggered by an EventBridge scheduler. 
+
+---------------------------------------------
 
 
 
