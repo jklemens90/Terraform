@@ -4,15 +4,11 @@ The purpose of the project is to create a highly available three-tier architectu
 
 Other notable implementations include Active Directory and Appstream.
 
+A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. 
+
 -------------------------------------------------------------------------------------
 
 Features yet to be implemented-
-
-
-
-A Lambda function (written in Python) that will automate snapshots of EBS volumes for servers on a nightly basis. This lambda function will be triggered by an EventBridge scheduler. 
-    a. Function and infrastructure have been deployed to AWS, but additional troubleshooting is needed
-    to ensure snapshots are being created.
 
 
 Apply SSL cert to ELB to facilitate HTTPS connections over the internet. 
