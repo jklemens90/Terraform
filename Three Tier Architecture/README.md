@@ -84,7 +84,9 @@ Provisioned a Shared Services VPC that contains Active Directory administration 
 -----------------------------------
 Created a Transit Gateway that acts as a router between the VPCs and allow communication between the Three-Tier VPC
 and the Shared Services VPC 
+
 ![image](https://github.com/jklemens90/Terraform/assets/95970840/a5591a34-57e0-495c-925b-91f2bc98d97d)
+
 ![image](https://github.com/jklemens90/Terraform/assets/95970840/55c1e3ca-6f51-4738-aa0d-de85d965ebe8)
 
 
