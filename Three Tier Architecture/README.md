@@ -4,6 +4,8 @@ The purpose of the project is to create a highly available three-tier architectu
 
 Other notable implementations include Active Directory and Appstream.
 
+*Production* instances are located in their own VPC. Active Directory domain controllers/administration instances and an AppStream fleet are located in a Shared Services VPC. A transit gateway is used to allow communication between the VPCs. 
+
 A Lambda function (written in Python) that automates snapshots of EBS volumes for servers on a nightly basis. This lambda function is triggered by an EventBridge scheduler. 
 
 -------------------------------------------------------------------------------------
@@ -19,10 +21,8 @@ Apply SSL cert to ELB to facilitate HTTPS connections over the internet.
 Add secret rotation for AD credentials stored in AWS Secrets Manager.
 
 
-Finish creating shared services VPC for domain controllers. Create VPN connection between the two VPCs.
 
-
-Powershell user data script to install Administrative tools on domain controllers
+Powershell user data script to install Administrative tools on domain administration instances.
 
 
 Powershell user data script to initialize volumes on disk drives in OS. 
@@ -45,7 +45,7 @@ AMIs: Windows 2019 for the Web and App Servers. Windows 2019/SQL Server 2019 for
 
 --------------------------------------------------
 
-Used block device mapping to specify additional EBS volumes to attach to the instances when they're launched. Added D drive for application servers. Added F, L, and G drives for database servers to facilitate SQL server. Encrypted all EBS volumes. 
+Used block device mapping to specify additional EBS volumes to attach to the instances when they're launched. Added D drive for application servers. Added F, L, and G drives for database servers to facilitate SQL server. Encrypted all EBS volumes.  
  
 -----------------------------------------------
 
@@ -79,6 +79,18 @@ Successfully created AppStream fleet with a custom image with RDP application wh
 
 
 -------------------
+Provisioned a Shared Services VPC that contains Active Directory administration instances along with an AppStream fleet. 
+
+-----------------------------------
+Created a Transit Gateway that acts as a router between the VPCs and allow communication between the Three-Tier VPC
+and the Shared Services VPC 
+![image](https://github.com/jklemens90/Terraform/assets/95970840/a5591a34-57e0-495c-925b-91f2bc98d97d)
+![image](https://github.com/jklemens90/Terraform/assets/95970840/55c1e3ca-6f51-4738-aa0d-de85d965ebe8)
+
+
+
+-------------------------------
+
 The network topology has been created: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
 -----------------------------
