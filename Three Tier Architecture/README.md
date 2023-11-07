@@ -79,8 +79,6 @@ Successfully created AppStream fleet with a custom image with RDP application wh
 -----------------------------------
 The network topology has been created for a *production* VPC and a shared-services VPC: VPC, public subnets in multi AZ, private subnets in multi AZ, route tables, internet gateway, NAT gateway, security groups. 
 
------------------------------
-
 
 ![image](https://github.com/jklemens90/Terraform/assets/95970840/b3162c21-7815-4951-823b-fab6b570562a)
 -------------------
@@ -91,7 +89,6 @@ and the Shared Services VPC
 
 ![image](https://github.com/jklemens90/Terraform/assets/95970840/55c1e3ca-6f51-4738-aa0d-de85d965ebe8)
 
--------------------------------
 
 ----------------------------------------------
 User data scripts-
